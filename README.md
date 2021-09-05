@@ -1,6 +1,6 @@
 # animeREC
 
-The above project was done using sklearn's NearestNeighbor and PySpark.
+The above project was done using sklearn's NearestNeighbor and PySpark. To expedite the EDA process, I used the AutoViz library to plot the predictors.
 
 The shortcomings of using a K-nearest neighbor approach is that it recommended only popular shows, which is to be expected, as kNN measures the distance (euclidean/cosine) of nearby instances. It then picks the most popular class amongst its neighbors. The problem therein lies with itself, as new shows and less popular shows would not be represented. From a more technical standpoint there's two major shortcomings with using the kNN approach: 
 
